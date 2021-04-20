@@ -1,5 +1,5 @@
 *{
-	background-color: rgb(250, 85, 35);
+	background-color: rgb(224, 163, 144);
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 32px;
 	color: rgb(221, 221, 221);
@@ -7,37 +7,84 @@
 a{
 	text-decoration: none;
 }
-a:hover{
-	color: rgb(149, 149, 149);
-}
 
-nav a {
-	font-size: 1.5em;
+.menu_Barra__Enlaces a:hover {
+	color: rgb(20, 2, 2);
 }
 header{
-	height: 96px;
-	width: 100vw;
+	margin-bottom: 15px;
+	background-color: rgb(75, 2, 2);/* color del banner */
+	position: relative;
+	z-index: 10;
+}
+.barraFondo{
+	position: absolute;
+	width: 100vw; /* pixeles del logo*/
+	height: 100px;
+	background-color: rgb(75, 2, 2);
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.menu_Barra__Enlaces {
+	position: absolute;
+	background-color: rgb(75, 2, 2);
 	text-align:center;
-	outline: auto;
-	display: flex;
-	position: fixed;
+	left: 200px; /* pixeles del logo*/
+	top: 50px;
+}
+.menu_Barra__Enlaces ul{
+	display: inline;
+	margin-left: 4px;
+	margin-right: 4px;;
+	background-color: rgb(75, 2, 2);/* color del banner */
+}
 
+.menu_Barra__LogoInicio {
+	display: inline-block;
+	width: 200px;
+	height:100px;
+	object-position: left;
+	position: relative;
+	z-index: 100;
 }
-.menu_Bar{
-	padding: 10px 10px;
-	display: flex;
-}
-.menu_Bar ul{
-	padding: 8px 16px;
-}
-aside nav{
-	text-align: left;
+.menu_Barra__LogoInicio img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: bottom;
+	background-color: rgb(75, 2, 2); /* color del banner */
 }
 article{
-	padding-top: 96px;
+	display: inline;
+}
+article img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.presentacion {
+	width: 700px;
+	height: 500px;;
 }
 
+
+aside{
+	object-position:right;
+}
+.menu_Lateral{
+	height:auto ;
+	width: 300px;
+}
+.menu_Lateral ul{
+	display: block;
+}
 
 footer{
 	text-align: center;
+}
+
+.redesSociales img{
+	width: 35px;
+	height: 35px;
 }
