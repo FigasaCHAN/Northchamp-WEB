@@ -14,7 +14,8 @@ a{
 header{
 	margin-bottom: 15px;
 	background-color: rgb(75, 2, 2);/* color del banner */
-	position: relative;
+	position: sticky;
+	top:0px;
 	z-index: 10;
 }
 .barraFondo{
