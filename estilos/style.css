@@ -12,7 +12,6 @@ a{
 	color: rgb(20, 2, 2);
 }
 header{
-	margin-bottom: 15px;
 	background-color: rgb(75, 2, 2);/* color del banner */
 	position: sticky;
 	top:0px;
@@ -29,13 +28,16 @@ header{
 }
 .menu_Barra__Enlaces {
 	position: absolute;
+	top: 50%; /* mitad de la imagen*/
+	text-align: center;
+	width: 100%;
+	height: 50%;
 	background-color: rgb(75, 2, 2);
-	text-align:center;
-	left: 200px; /* pixeles del logo*/
-	top: 50px;
+	
 }
 .menu_Barra__Enlaces ul{
 	display: inline;
+	
 	margin-left: 4px;
 	margin-right: 4px;;
 	background-color: rgb(75, 2, 2);/* color del banner */
@@ -53,7 +55,7 @@ header{
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	object-position: bottom;
+	object-position: center;
 	background-color: rgb(75, 2, 2); /* color del banner */
 }
 article{
