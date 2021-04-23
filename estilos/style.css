@@ -57,15 +57,15 @@ article{
 	width: 75vw;
 	height: 100vh;
 }
-article *{
+article *{ 
 	color: rgb(75, 2, 2);
+	/*voy a centrar todos los elementos del articulo*/
 	margin-left: auto;
 	margin-right: auto;
 }
 
 section{
 	display: inline;
-	
 }
 
 
