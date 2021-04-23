@@ -59,19 +59,24 @@ header{
 article{
 	display: inline-block;
 	width: 75vw;
+	height: 100vh;
 	margin-right: 10px;
+}
+
+
+section{
+	display: inline;
+}
+.presentacion {
+	display: inline-block;
+	width: 700px;
+	height: 500px;;
+	margin: auto;
 }
 article img{
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-}
-.presentacion {
-	width: 700px;
-	height: 500px;;
-}
-.resultDeLaSemana,.resultDeLaSemana h1 {
-	display: inline;
 }
 .menu_Lateral{
 	text-align: center;
@@ -91,9 +96,11 @@ aside{
 	display: inline;
 	position:fixed;
 	width: 25vw;
+	height: 50vh;
 	margin-top: 30px;
 
 }
+
 footer, footer *{
 	text-align: center;
 	margin-top: 10px;
